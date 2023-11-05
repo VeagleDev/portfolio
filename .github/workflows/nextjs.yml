@@ -60,7 +60,7 @@ jobs:
       - name: Install dependencies
         run: 'pnpm install'
       - name: Build with Next.js
-        run: 'pnpm next build'
+        run: 'pnpm build'
       - name: Static HTML export with Next.js
         run: 'pnpm next export'
       - name: Upload artifact
