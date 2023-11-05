@@ -1,0 +1,31 @@
+{
+  "name": "veagle-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write --end-of-line=auto ./src/**/*.tsx ./src/**/*.scss",
+    "convert-images": "node scripts/convert-images.js"
+  },
+  "dependencies": {
+    "next": "14.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "@types/react": "^18.2.35",
+    "@types/react-dom": "^18.2.14",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "14.0.1",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.5",
+    "sharp": "^0.32.6",
+    "typescript": "^5.2.2"
+  }
+}
